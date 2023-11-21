@@ -26,7 +26,7 @@ public class Steps {
 	public WebUtil we=new WebUtil();
 
 	@Given("user is launch browser")
-	public void user_is_launch_browser() {
+	public void user_is_browser() {
 		we.launchBrowser("chrome");
 
 	}
