@@ -26,7 +26,7 @@ public class Steps {
 	public WebUtil we=new WebUtil();
 
 	@Given("user is launch browser")
-	public void user_is_launch_browser() {
+	public void user_is_browser() {
 		we.launchBrowser("chrome");
 
 	}
@@ -123,6 +123,10 @@ public class Steps {
 	@When("click on salesSaveBt")
 	public void click_on_salesSave_bt() {
 		sales.click_on_save_bt();
+		
 	}
 
+	public void name() {
+		
+	}
 }
