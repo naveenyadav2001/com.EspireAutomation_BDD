@@ -123,6 +123,10 @@ public class Steps {
 	@When("click on salesSaveBt")
 	public void click_on_salesSave_bt() {
 		sales.click_on_save_bt();
+		
 	}
 
+	public void name() {
+		
+	}
 }

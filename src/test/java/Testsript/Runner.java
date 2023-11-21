@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		        features="C:\\Users\\web\\eclipse-workspace\\com.EspireAutomation_BDD\\Feature\\myhome.feature",
                 glue="step_Definition",
-                tags= "@sunil",
+                tags= "@sunil1",
                 dryRun = false
                 )
 
